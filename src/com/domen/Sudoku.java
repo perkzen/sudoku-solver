@@ -92,6 +92,7 @@ public class Sudoku {
     }
 
     public boolean solve() {
+
         int[] emptyPosition = find_empty();
 
         if (emptyPosition == null) {
@@ -112,5 +113,4 @@ public class Sudoku {
         }
         return false;
     }
-
 }
